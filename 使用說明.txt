@@ -1,0 +1,19 @@
+阿孟萬能連點器 2.0 — 快速使用
+
+本專案使用 Python、customtkinter 與 pynput，支援 Windows 10 或更新版本。
+
+從原始碼執行
+1. 安裝 Python 3.10 或更新版本。
+2. 將本專案資料夾解壓縮或 clone 下來，確認 AmengClicker.py、monochrome.json、67.ico 都在資料夾根目錄。
+3. 在 PowerShell 開啟專案資料夾，執行：
+   py -m venv .venv
+   .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+   .\.venv\Scripts\python.exe .\AmengClicker.py
+
+操作
+- 主畫面選擇滑鼠或鍵盤；滑鼠支援左／右／中鍵，鍵盤可擷取大多數按鍵與功能鍵。
+- 間隔以秒為單位；次數上限輸入 0 表示不限次數。
+- 齒輪設定可切換單擊／雙擊、雙擊間隔、系統／深／淺主題、繁體中文／English 及全域快捷鍵。
+- 預設 F6 開始／暫停，F7 立即停止。開始連點後，請確認滑鼠游標或鍵盤焦點位於正確目標。
+
+GitHub Actions 與本機測試只驗證程式結構和按鍵映射，不會實際送出滑鼠或鍵盤輸入。

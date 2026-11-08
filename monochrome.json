@@ -1,0 +1,21 @@
+{
+  "CTk": {"fg_color": ["#FFFFFF", "#000000"]},
+  "CTkToplevel": {"fg_color": ["#FFFFFF", "#000000"]},
+  "CTkFrame": {"corner_radius": 12, "border_width": 0, "fg_color": ["#F7F7F7", "#141414"], "top_fg_color": ["#EFEFEF", "#222222"], "border_color": ["#D0D0D0", "#484848"]},
+  "CTkButton": {"corner_radius": 12, "border_width": 0, "fg_color": ["#000000", "#F4F4F4"], "hover_color": ["#303030", "#D8D8D8"], "border_color": ["#D0D0D0", "#484848"], "text_color": ["#FFFFFF", "#000000"], "text_color_disabled": ["#777777", "#888888"]},
+  "CTkLabel": {"corner_radius": 0, "border_width": 0, "fg_color": "transparent", "border_color": ["#D0D0D0", "#484848"], "text_color": ["#111111", "#F4F4F4"]},
+  "CTkEntry": {"corner_radius": 10, "border_width": 1, "fg_color": ["#FFFFFF", "#090909"], "border_color": ["#D0D0D0", "#484848"], "text_color": ["#111111", "#F4F4F4"], "placeholder_text_color": ["#777777", "#A8A8A8"]},
+  "CTkCheckBox": {"corner_radius": 6, "border_width": 2, "fg_color": ["#111111", "#EEEEEE"], "border_color": ["#777777", "#888888"], "hover_color": ["#555555", "#BBBBBB"], "checkmark_color": ["#FFFFFF", "#000000"], "text_color": ["#111111", "#F4F4F4"], "text_color_disabled": ["#777777", "#888888"]},
+  "CTkSwitch": {"corner_radius": 1000, "border_width": 3, "button_length": 0, "fg_color": ["#CCCCCC", "#444444"], "progress_color": ["#555555", "#AAAAAA"], "button_color": ["#111111", "#EEEEEE"], "button_hover_color": ["#444444", "#CCCCCC"], "text_color": ["#111111", "#F4F4F4"], "text_color_disabled": ["#777777", "#888888"]},
+  "CTkRadioButton": {"corner_radius": 1000, "border_width_checked": 6, "border_width_unchecked": 3, "fg_color": ["#111111", "#EEEEEE"], "border_color": ["#777777", "#888888"], "hover_color": ["#555555", "#BBBBBB"], "text_color": ["#111111", "#F4F4F4"], "text_color_disabled": ["#777777", "#888888"]},
+  "CTkProgressBar": {"corner_radius": 1000, "border_width": 0, "fg_color": ["#CCCCCC", "#444444"], "progress_color": ["#111111", "#EEEEEE"], "border_color": ["#777777", "#888888"]},
+  "CTkSlider": {"corner_radius": 1000, "button_corner_radius": 1000, "border_width": 6, "button_length": 0, "fg_color": ["#CCCCCC", "#444444"], "progress_color": ["#555555", "#AAAAAA"], "button_color": ["#111111", "#EEEEEE"], "button_hover_color": ["#444444", "#CCCCCC"]},
+  "CTkOptionMenu": {"corner_radius": 10, "fg_color": ["#E7E7E7", "#242424"], "button_color": ["#D6D6D6", "#383838"], "button_hover_color": ["#C0C0C0", "#555555"], "text_color": ["#111111", "#F4F4F4"], "text_color_disabled": ["#777777", "#888888"]},
+  "CTkComboBox": {"corner_radius": 10, "border_width": 1, "fg_color": ["#FFFFFF", "#090909"], "border_color": ["#D0D0D0", "#484848"], "button_color": ["#E7E7E7", "#242424"], "button_hover_color": ["#D6D6D6", "#383838"], "text_color": ["#111111", "#F4F4F4"], "text_color_disabled": ["#777777", "#888888"]},
+  "CTkScrollbar": {"corner_radius": 1000, "border_spacing": 4, "fg_color": "transparent", "button_color": ["#999999", "#666666"], "button_hover_color": ["#666666", "#999999"]},
+  "CTkSegmentedButton": {"corner_radius": 12, "border_width": 2, "fg_color": ["#E7E7E7", "#242424"], "selected_color": ["#CFCFCF", "#4A4A4A"], "selected_hover_color": ["#D6D6D6", "#383838"], "unselected_color": ["#E7E7E7", "#242424"], "unselected_hover_color": ["#D6D6D6", "#383838"], "text_color": ["#111111", "#F4F4F4"], "text_color_disabled": ["#777777", "#888888"]},
+  "CTkTextbox": {"corner_radius": 10, "border_width": 1, "fg_color": ["#FFFFFF", "#090909"], "border_color": ["#D0D0D0", "#484848"], "text_color": ["#111111", "#F4F4F4"], "scrollbar_button_color": ["#999999", "#666666"], "scrollbar_button_hover_color": ["#666666", "#999999"]},
+  "CTkScrollableFrame": {"label_fg_color": ["#F7F7F7", "#141414"]},
+  "DropdownMenu": {"fg_color": ["#FFFFFF", "#141414"], "hover_color": ["#E7E7E7", "#383838"], "text_color": ["#111111", "#F4F4F4"]},
+  "CTkFont": {"macOS": {"family": "SF Display", "size": 13, "weight": "normal"}, "Windows": {"family": "Segoe UI", "size": 13, "weight": "normal"}, "Linux": {"family": "Sans", "size": 13, "weight": "normal"}}
+}
